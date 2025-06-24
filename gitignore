@@ -19,7 +19,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # Virtual Environment
 env/
@@ -32,7 +31,7 @@ venv.bak/
 # Database
 *.db
 *.sqlite3
-nyiso_web.db
+nyiso.db
 
 # IDE
 .vscode/
@@ -43,55 +42,11 @@ nyiso_web.db
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
 # Logs
 *.log
-logs/
 
 # Environment variables
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Flask
-instance/
-.webassets-cache
-
-# Coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# Backup files
-*.bak
-*.backup
-*.old
-
-# Temporary files
-*.tmp
-*.temp
-
